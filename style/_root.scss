@@ -1,0 +1,12 @@
+$bgcolor: lightgrey;
+$textcolor: lightblue;
+$primary_1: #ffffff;
+$primary_2: lightgreen;
+$font_size: 30px;
+
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $bgcolor;
+}

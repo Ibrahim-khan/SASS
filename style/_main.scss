@@ -1,0 +1,40 @@
+.main{
+    #p{
+        background-color: lightblue;
+    }
+
+    .mainP p{
+        background-color: darkblue;
+    }
+
+    #changeColorP{
+        $primary_2 : red;
+        color: $primary_2;
+    }
+
+    #nav1{
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: darkblue;
+                    padding:10px 20px;
+                    font-size: $font_size;
+                }
+                a:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+    
+

@@ -4,3 +4,19 @@
 @import "main";
 
 
+@mixin important-text {
+    color: green;
+    text-align: center;
+    border: 2px solid red;
+    font-weight: bold; 
+}
+
+.danger p{
+    @include important-text;
+    color: darkblue;
+}
+
+.danger1 p{
+    @extend .danger;
+    color: rgb(104, 59, 59); 
+}

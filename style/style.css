@@ -44,4 +44,16 @@
 .main #nav1 ul li a:hover {
   background-color: black;
   color: white;
+}
+
+.danger p, .danger1 p p {
+  color: green;
+  text-align: center;
+  border: 2px solid red;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.danger1 p {
+  color: rgb(104, 59, 59);
 }/*# sourceMappingURL=style.css.map */
